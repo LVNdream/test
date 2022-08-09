@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Login</title>
+</head>
+<body>
+    <header class="header">
+        <ul class="header__list">
+            <li class="header__item">
+                <a href="" class="header__link">Trang chủ</a>
+            </li>
+            <li class="header__item">
+                <a href="/info.html" class="header__link">Sản phẩm</a>
+            </li>
+            <li class="header__item">
+                <a href="" class="header__link">Giới thiệu</a>
+            </li>
+            <li class="header__item">
+                <a href="" class="header__link">Liên hệ</a>
+            </li>
+        </ul>
+        <div class="header__right">
+            <div class="header__search">
+                <input type="text" class="search__input">
+                <i class="fa-solid fa-magnifying-glass search__icon"></i>
+            </div>
+
+            <a href="#" class="header__cart">
+                <i class="fa-solid fa-cart-shopping cart__icon"></i>
+                <span class="cart__count">1</span>
+            </a>
+        </div>        
+    </header>
+    <main class="main">
+        <form action="" class="form_1" id="form_1">
+            <h3 class="form__heading">Đăng ký</h3>
+            <div class="form__group">
+                <label for="" class="form__lable">First name</label>
+                <input type="text" class="form__input" value="" placeholder="Frist name">
+                <span class="form__message" hidden></span>
+            </div>
+
+            <div class="form__group ">
+                <label for="" class="form__lable">Last name</label>
+                <input type="text" class="form__input" placeholder="Last name">
+                <span class="form__message" hidden></span>
+            </div>
+
+            <div class="form__group ">
+                <label for="" class="form__lable">User name</label>
+                <input type="text" class="form__input" placeholder="User name">
+                <span class="form__message" hidden></span>
+            </div>
+
+            <div class="form__group ">
+                <label for="" class="form__lable">Email</label>
+                <input type="text" class="form__input"placeholder="Email">
+                <span class="form__message" hidden></span>
+            </div>
+            <div class="form__submit">
+                <button type="submit" class="submit__btn" id="submit__btn">submit</button>
+            </div>
+        </form>
+    </main>
+</body>
+<script src="form2.js">
+</script>
+</html>
